@@ -68,9 +68,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Run travel agent Data');
+    res.send('Run travel agent Data base');
 });
 
 app.listen(port, () => {
-    console.log('Travel agent data', port);
+    console.log('Travel agent data base', port);
 })
